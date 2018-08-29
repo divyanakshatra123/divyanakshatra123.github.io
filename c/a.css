@@ -54,10 +54,11 @@ header a{
 
 }
 /*to make the list items horizontal */
-header ul{
+
+/*header ul{
   display: flex;
   justify-content: space-between;
-  list-style: none; /*removing the bullets*/
+  list-style: none; removing the bullets
   margin-left: 40px;
   text-align: center;
 } 
