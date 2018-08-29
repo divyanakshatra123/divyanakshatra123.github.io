@@ -292,6 +292,7 @@ nav a:hover {
     position: relative;
     overflow-x: hidden;
     margin-top: 13px;
+    background-attachment: fixed;
 }
 
 @media screen and (min-width: 800px) {
