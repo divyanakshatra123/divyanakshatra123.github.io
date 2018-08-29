@@ -1,60 +1,62 @@
 body {
-	font-family: sans-serif;
-	font-size: 15px;
-	line-height:1.5;
-	padding: 0;
-	margin: 0;
-	background-color: black;
-	flex-wrap: wrap;
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height:1.5;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  flex-wrap: wrap;
 
 }
 nav {
-	position: fixed;
+  position: fixed;
+  margin-left: 30px;
 }
 /*common to all*/
 .container
 {
-	width: 80%;
-	margin: auto; /* moves to the middle*/
-	overflow: hidden;
+  width: 80%;
+  margin: auto; /* moves to the middle*/
+  overflow: hidden;
+  margin-left: 100px;
 }
 ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 header{
-	background-color: black;
-	color: #f4f4f4;
-	
-	min-height: 50px; /*responsiveness*/
-	
-	padding-bottom: 0px;
-	top: 0px; /*to stick on top*/
-	position: sticky;
+  background-color: black;
+  color: #f4f4f4;
+  
+  min-height: 50px; /*responsiveness*/
+  
+  padding-bottom: 0px;
+  top: 0px; /*to stick on top*/
+  position: sticky;
 
 
 }
 header h1{
-	margin-top: 5px;
-	font-size: 20px;
+  margin-top: 5px;
+  font-size: 20px;
 }
 /*links inside the header*/
 header a{
-	color: white;
-	text-decoration: none ;/* no underline!*/
-	text-transform: uppercase;
-	font-size: 12px;
-	
-	margin: 5px; /*to make the list items to have space in between*/
+  color: white;
+  text-decoration: none ;/* no underline!*/
+  text-transform: uppercase;
+  font-size: 12px;
+  
+  margin: 5px; /*to make the list items to have space in between*/
 
 }
 /*to make the list items horizontal */
 /*header ul{
-	display: flex;
-	justify-content: space-between;
-	list-style: none; /*removing the bullets*/
+  display: flex;
+  justify-content: space-between;
+  list-style: none; /*removing the bullets*/
 
 } 
 */
@@ -62,39 +64,39 @@ header a{
 
 nav ul li a:hover,
 nav ul li a.active{
-	color: red;
+  color: red;
 font-weight: bold;
 margin-right: 10px;
 }
 header a:hover{
-	font-weight: bold;
+  font-weight: bold;
 }
 
 img{
-	width: 100%;
+  width: 100%;
 }
 /*got pic*/
 #show{
-	min-height: 400px ;/*to be responsive*/
-	
-	
-	
-	color: #f4f4f4;
-	background-size:cover; /*this will let the picture  cover the whole window */
-	text-align: center;
+  min-height: 400px ;/*to be responsive*/
+  
+  
+  
+  color: #f4f4f4;
+  background-size:cover; /*this will let the picture  cover the whole window */
+  text-align: center;
 
-	
-	
+  
+  
 }
 #show h1{
-	font-family: Open Sans;
-	margin-top: 0px;
+  font-family: Open Sans;
+  margin-top: 0px;
   color: grey;
-	
-	font-size: 30px;
+  
+  font-size: 30px;
 }
 #show p{
-	padding: 0px;
+  padding: 0px;
   font-family: Kaushan Script;
 }
 /* newsletter*/
@@ -102,13 +104,13 @@ img{
 /*boxes*/
 
 #boxes{
-	color: white;
-	display: flex;
-	justify-content: space-around;
+  color: white;
+  display: flex;
+  justify-content: space-around;
 
-	flex-wrap:  wrap;
+  flex-wrap:  wrap;
   margin-left: 70px;
-	margin-top: 0px;
+  margin-top: 0px;
   padding: 0px;
   margin-bottom: 20px;
   font-family: lobster;
@@ -125,35 +127,35 @@ img{
   margin-bottom: 0px;
 }
 .box1{
-	width: 400px;
+  width: 400px;
   margin-bottom: 50px;
-	
+  
 }
 .box2{
-	width: 400px;
+  width: 400px;
 }
 .box3{
-	width: 400px;
+  width: 400px;
 }
 .box4{
-	width: 400px;
-	
+  width: 400px;
+  
 }
 .box5{
-	width: 400px;
+  width: 400px;
 }
 .box6{
-	width: 400px;
+  width: 400px;
 }
 footer{
-	color: white;
-	display: flex;
-	flex-wrap: wrap;
-	left:0;
-	bottom: 0;
-	width: 100%;
-	height: auto;
-	overflow: hidden;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  left:0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
 
 }
 :root {
@@ -164,10 +166,10 @@ footer{
 }
 
 body {
-	margin: 0;
-	background: #222;
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 400;
+  margin: 0;
+  background: #222;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
 }
 
 .content {
@@ -329,20 +331,20 @@ nav a:hover {
 }
 
 footer{
-	display: flex;
-	justify-content: space-between;
-	padding: 10px ;
-	border: 5px solid #35424a;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px ;
+  border: 5px solid #35424a;
  background: rgba(0, 0, 0, 0.8);
 }
 .foot li {
-	color: white;
-	display: flex;
-	
+  color: white;
+  display: flex;
+  
 
 }
 .icon{
-	display: inline-flex;
+  display: inline-flex;
   flex-wrap: wrap;
   margin-top: 70px;
 color: grey;
@@ -351,7 +353,7 @@ line-height: 10px;
 
 }
 .icon li{
-	padding: 10px 10px;
+  padding: 10px 10px;
   
 
 }
@@ -363,5 +365,5 @@ footer p{
   
   margin-bottom: 0;
 }
-	
+  
 
