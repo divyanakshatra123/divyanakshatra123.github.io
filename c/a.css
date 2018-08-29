@@ -27,7 +27,7 @@ ul {
 header{
 	background-color: black;
 	color: #f4f4f4;
-	padding-top: 20px;
+	
 	min-height: 50px; /*responsiveness*/
 	
 	padding-bottom: 0px;
@@ -82,6 +82,7 @@ img{
 	color: #f4f4f4;
 	background-size:cover; /*this will let the picture  cover the whole window */
 	text-align: center;
+
 	
 	
 }
@@ -106,7 +107,7 @@ img{
 	justify-content: space-around;
 
 	flex-wrap:  wrap;
-  margin-left: 5px;
+  margin-left: 40px;
 	margin-top: 0px;
   padding: 0px;
   margin-bottom: 20px;
