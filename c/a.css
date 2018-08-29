@@ -6,7 +6,10 @@ body {
   margin: 0;
   background-color: black;
   flex-wrap: wrap;
-
+  height: 100%;
+}
+html{
+  height: 100%;
 }
 nav {
   position: fixed;
@@ -17,8 +20,7 @@ nav {
 {
   width: 80%;
   margin: auto; /* moves to the middle*/
-  overflow: hidden;
-
+  
 
 }
 ul {
@@ -76,6 +78,10 @@ header a:hover{
 img{
   width: 100%;
 }
+.d {
+  padding: 0px;
+  width: 100%;
+}
 /*got pic*/
 #show{
   min-height: 400px ;/*to be responsive*/
@@ -110,9 +116,9 @@ img{
   justify-content: space-around;
 
   flex-wrap:  wrap;
-  margin-left: 70px;
+  margin-left: 0px;
   margin-top: 0px;
-  padding: 0px;
+  padding: 10px;
   margin-bottom: 20px;
   font-family: lobster;
   background: #222;
@@ -239,15 +245,13 @@ nav {
   left: 0;
   background: var(--background);
   width: 100%;
-  transform: scale(1, 0);
-  transform-origin: top;
-  transition: transform 400ms ease-in-out;
 }
 
 nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: none;
 }
 
 nav li {
@@ -260,21 +264,33 @@ nav a {
   text-decoration: none;
   font-size: 1.2rem;
   text-transform: uppercase;
-  opacity: 0;
-  transition: opacity 150ms ease-in-out;
 }
 
 nav a:hover {
   color: red;
 }
 
-.nav-toggle:checked ~ nav {
-  transform: scale(1,1);
+.nav-toggle:checked ~ ul {
+  display: block;
 }
 
 .nav-toggle:checked ~ nav a {
   opacity: 1;
   transition: opacity 250ms ease-in-out 250ms;
+}
+.d {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image:  url("nerd.jpeg");
+
+    /* Set a specific height */
+    height: 100%;
+    width: 100%;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
 }
 
 @media screen and (min-width: 800px) {
@@ -282,11 +298,7 @@ nav a:hover {
     display: none;
   }
 
-  header {
-    display: grid;
-    grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
-  }
-  
+
   .logo {
     grid-column: 2 / 3;
   }
@@ -301,14 +313,11 @@ nav a:hover {
   
   nav ul {
     display: flex;
-    justify-content: flex-end;
-    width: 100%;
   }
   
   nav li {
     margin-left: 3em;
     margin-bottom: 0;
-
   }
   
   nav a {
