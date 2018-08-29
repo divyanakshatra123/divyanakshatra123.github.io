@@ -18,7 +18,8 @@ nav {
   width: 80%;
   margin: auto; /* moves to the middle*/
   overflow: hidden;
-  margin-left: 100px;
+
+
 }
 ul {
   margin: 0;
@@ -53,13 +54,13 @@ header a{
 
 }
 /*to make the list items horizontal */
-/*header ul{
+header ul{
   display: flex;
   justify-content: space-between;
   list-style: none; /*removing the bullets*/
 
 } 
-*/
+
 /* nav positioning */
 
 nav ul li a:hover,
