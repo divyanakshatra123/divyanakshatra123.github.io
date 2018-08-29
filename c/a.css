@@ -302,11 +302,13 @@ nav a:hover {
   nav ul {
     display: flex;
     justify-content: flex-end;
+    width: 100%;
   }
   
   nav li {
     margin-left: 3em;
     margin-bottom: 0;
+
   }
   
   nav a {
