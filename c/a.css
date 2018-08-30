@@ -13,7 +13,7 @@ html{
 }
 nav {
   position: fixed;
-  margin-left: 30px;
+
 }
 /*common to all*/
 .container
@@ -165,8 +165,9 @@ footer{
   overflow: hidden;
 
 }
+
 :root {
-  --background: rgba(0, 0, 0, 0.8);
+  --background: rgba(0, 0, 0, 1);
 }
 *, *::before, *::after {
   box-sizing: border-box;
@@ -372,13 +373,17 @@ line-height: 10px;
   
 
 }
-footer p{
+footer li: first-child{
   color: grey;
 }
 .icon i{
   color: white;
   
   margin-bottom: 0;
+}
+.foot li: first-child{
+   color: grey;
+
 }
   
 
